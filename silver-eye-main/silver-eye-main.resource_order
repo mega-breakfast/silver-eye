@@ -1,0 +1,26 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
+    {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
+    {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"Notes","order":13,"path":"folders/Notes.yy",},
+    {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"Paths","order":4,"path":"folders/Paths.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
+    {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"spr_card_back","order":3,"path":"sprites/spr_card_back/spr_card_back.yy",},
+    {"name":"obj_player_hand","order":2,"path":"objects/obj_player_hand/obj_player_hand.yy",},
+    {"name":"spr_table_candles","order":1,"path":"sprites/spr_table_candles/spr_table_candles.yy",},
+    {"name":"obj_face_down_deck","order":1,"path":"objects/obj_face_down_deck/obj_face_down_deck.yy",},
+    {"name":"spr_backdrop","order":2,"path":"sprites/spr_backdrop/spr_backdrop.yy",},
+  ],
+}
