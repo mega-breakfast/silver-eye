@@ -1,11 +1,13 @@
+/// Draw AI hand
+// You can write your code in this editor
+
 {
 	var margin = 10
 	
-	if ds_list_size(global.player_hand)>0 {
+	if ds_list_size(global.ai_hand)>0 {
 	
-		for (var entry = 0; entry < ds_list_size(global.player_hand); entry ++)
-		
-			{ var card_item = global.player_hand[| entry];
+		for (var entry = 0; entry < ds_list_size(global.ai_hand); entry ++)
+			{ var card_item = global.ai_hand[| entry];
 		
 				#region Draw coordinates
 		
@@ -25,3 +27,5 @@
 		}
 	}
 }
+
+

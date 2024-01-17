@@ -38,6 +38,7 @@
     {"id":{"name":"spr_classic_cards","path":"sprites/spr_classic_cards/spr_classic_cards.yy",},},
     {"id":{"name":"obj_player_hand","path":"objects/obj_player_hand/obj_player_hand.yy",},},
     {"id":{"name":"obj_card_deck","path":"objects/obj_card_deck/obj_card_deck.yy",},},
+    {"id":{"name":"obj_ai_hand","path":"objects/obj_ai_hand/obj_ai_hand.yy",},},
     {"id":{"name":"spr_table_candles","path":"sprites/spr_table_candles/spr_table_candles.yy",},},
     {"id":{"name":"obj_face_down_deck","path":"objects/obj_face_down_deck/obj_face_down_deck.yy",},},
     {"id":{"name":"spr_backdrop","path":"sprites/spr_backdrop/spr_backdrop.yy",},},

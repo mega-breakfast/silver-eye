@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 {
-	ds_list_destroy(global.player_hand)
+ds_list_destroy(global.ai_hand)	
 }
 
 
