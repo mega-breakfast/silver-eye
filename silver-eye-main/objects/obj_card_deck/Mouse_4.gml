@@ -2,10 +2,12 @@
 // You can write your code in this editor
 {
 
-var card_drawn = ds_list_find_value(global.ds_deck,0);
-ds_list_add(global.player_hand,card_drawn);
-ds_list_add(global.ai_hand,card_drawn);
-ds_list_delete(global.ds_deck,0)
+var _deck_array = fn_deck();
+var _card_drawn = array_get(_deck_array,0);
+var _card_to_field = [];
+array_push(_card_to_field,_card_drawn);
+
+fn_play_field(_card_to_field); //update static variable play_field
 
 }
 

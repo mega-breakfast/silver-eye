@@ -21,7 +21,8 @@
     {"name":"obj_player_hand","order":2,"path":"objects/obj_player_hand/obj_player_hand.yy",},
     {"name":"obj_ai_hand","order":3,"path":"objects/obj_ai_hand/obj_ai_hand.yy",},
     {"name":"spr_table_candles","order":1,"path":"sprites/spr_table_candles/spr_table_candles.yy",},
-    {"name":"obj_face_down_deck","order":1,"path":"objects/obj_face_down_deck/obj_face_down_deck.yy",},
+    {"name":"obj_play_field","order":1,"path":"objects/obj_play_field/obj_play_field.yy",},
+    {"name":"obj_debug","order":4,"path":"objects/obj_debug/obj_debug.yy",},
     {"name":"spr_backdrop","order":2,"path":"sprites/spr_backdrop/spr_backdrop.yy",},
   ],
 }

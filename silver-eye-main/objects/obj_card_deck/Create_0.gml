@@ -1,19 +1,22 @@
 {
 	
-#region Create deck as global
+function fn_deck() {
+static deck = []
 
-global.ds_deck = ds_list_create()
+var _cards_in_deck = (argument[0] != undefined) ? argument[0]:52
 
-#endregion 
+  if array_length(deck)=0 {
+  for (var _i = 0; _i < _cards_in_deck; _i++) {
+	  array_push(deck, _i)
+  }
+  randomize();
+  deck = array_shuffle(deck)
+  }
 
-var cards_in_deck = 52
+return deck
 
-for(var i=0; i<cards_in_deck; ++i)
-	{
-		ds_list_add(global.ds_deck, i);
-	}
+}
 
-randomize();
-ds_list_shuffle(global.ds_deck)
-
+fn_deck();
+	
 }
